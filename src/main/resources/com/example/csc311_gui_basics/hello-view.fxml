@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import javafx.geometry.*?>
@@ -20,6 +22,8 @@
             <Image url="@../../../../../../../../OneDrive/Pictures/Reading.JPG" />
          </image>
       </ImageView>
+      <CheckBox mnemonicParsing="false" text="Done" />
+      <Circle fx:id="circle" fill="#17f82e" onDragDetected="#onDrag" opacity="0.84" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
    
        <Label fx:id="welcomeText" prefHeight="58.0" prefWidth="173.0" rotate="-26.6" style="-fx-background-color: Pink; -fx-font-size: 40; -fx-font-weight: 900; -fx-font-family: serif;" text="Mehul" />
        <Button onAction="#onHelloButtonClick" text="Hello!" />
